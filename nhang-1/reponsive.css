@@ -1,0 +1,89 @@
+ @media only screen and (min-width: 1440px){
+    .wraper {
+        margin-left: -24px;
+    }
+    .main {
+        width: 100%;
+        height: 40px;
+    }
+    .row_book{
+        width: 100%;
+    }
+    .khung>.text {
+        font-size: 20px;
+    }
+    #box-search .searchbox .input-search {
+        width: 100%;
+    }
+    #box-search .search-input {
+        width: 95%;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1439px){
+    .wraper {
+        max-width: 1928px;
+    }
+    .main {
+        width: 100%;
+        max-width: 1928px;
+        height: 40px;
+    }
+    .row_book{
+        width: 100%;
+    }
+    .khung>.text {
+        font-size: 20px;
+    }
+    #box-search .searchbox .input-search {
+        width: 100%;
+    }
+    #box-search .search-input {
+        width: 95%;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .body{
+        width: 1024px;
+        witdh: 100%
+    }
+    #head {
+        margin-left: -100px;
+    }
+    .logo{
+        margin-left: 55px;
+    }
+    .row_book {
+        right: 0;
+        top: 35px;
+        width: 70%;
+    }
+    .row_hotline{
+        margin-left: -120px;
+    }
+    .wraper {
+        max-width: 1928px;
+    }
+    .main {
+        width: 1364px;
+        margin-left: -340px;
+        height: 75px
+    }
+    .khung>.text {
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 426px) and (max-width: 769px) {
+    .row_hotline {
+        margin-left: -170px;
+    }
+
+    #head .giohang {
+        margin-left: 100px;
+    }
+    #box-search .searchbox .input-search{
+        margin-left: 30px;
+    }
+    #box-search .search-input {
+        width: 70%;
+    }
+}
