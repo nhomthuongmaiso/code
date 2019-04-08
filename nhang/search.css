@@ -1,0 +1,34 @@
+#box-search .search-input {
+    height: 37px;
+    float: right;
+    margin-right: 10px;
+}
+#box-search .searchbox {
+    position: relative;
+}
+#box-search .searchbox .input-search {
+    width: 100%;
+    height: 37px;
+    -webkit-box-shadow: 0 0 2px 2px rgba(139,150,32,1);
+    -moz-box-shadow: 0 0 2px 2px rgba(139,150,32,1);
+    box-shadow: 0 0 3px 1px rgb(0, 153, 0);
+    border: 1px #dadcce solid;
+    padding: 4px 30px 4px 10px;
+}
+#box-search .dropdown-menu.template {
+    left: 0!important;
+    width: 100%;
+    z-index: 9999;
+}
+#box-search .searchbox button, #box-search .searchbox button:focus {
+    background: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+#box-search .searchbox button i {
+    font-size: 18px;
+    color: #009900;
+}

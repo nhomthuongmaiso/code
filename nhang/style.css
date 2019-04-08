@@ -1,0 +1,41 @@
+.wraper {
+    position: relative;
+    margin: 0 auto;
+}
+#head {
+    position: relative;
+    background: none;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+a, a:link, a:active, a:visited {
+    color: #3ab54a;
+}
+body {
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    background-color: #FFF;
+}
+ul, ol {
+    list-style: none;
+}
+.well {
+    padding: 8px;
+    line-height: 18px;
+}
+.well p {
+    margin: 0;
+}
+.copyright{
+    background: #1fab00;
+    text-align: center;
+    color:#ffffff;
+    text-decoration: none;
+}
+.copyright a{
+    color:#ffffff;
+    text-decoration: none;
+}

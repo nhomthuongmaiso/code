@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding: 0
+}
+.main {
+    background: #3ab54a;
+    float: left;
+}
+.navbar-fixed-top{
+    background: #3ab54a;
+    float: left;
+    position: fixed;
+    z-index: 9999;
+}
+.show {
+    top: 0px;
+}
+.main>.container>.row>ul>li>.active>a {
+    background: #e5a92f;
+}
+.main ul {
+    float: left;
+    list-style: none;
+}
+
+.main ul li {
+    position: relative;
+    float: left;
+}
+.main li a {
+    display: block;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a.menu-xuong {
+    padding: 3px 15px;
+}
+a.menu-thuong{
+    padding: 10px 15px;
+}
+.main li a:hover {
+    background: #ffffff;
+}
+.main>.container>.row>.ul>.li>.ul>.wsmegamenu>.wraper_menu_mega>.owl-carousel owl-theme tms_menu_site owl-loaded owl-drag>.owl-stage-outer>.owl-stage>.owl-item active>.item>li a {
+    font-size: 10px;
+}
+.main li ul{
+    background: #e5a92f;
+    position: absolute;
+    display: none;
+    width: 230px;
+    margin:auto;
+    border-bottom: 1px dashed rgba(102,102,102,.3);
+}
+.main li ul a:hover{
+    color: #666666;
+}
+
+.main li:hover ul{
+    display: block;
+}
+
+.main ul li ul li {
+    width: 100%;
+}
+
+.main li:hover > a{
+    background: #e5a92f;
+}
+.wsmegamenu {
+    position: absolute;
+    z-index: 1000;
+    background-color: #3ab54a;
+    float: left;
+    width: 1120px;
+    margin-left: -200px;
+}
+.wraper_menu_mega {
+    max-width: 1180px;
+    width: 100%;
+    text-align: center;
+}
+.a {
+    display: block;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+.main>.container>.row>ul>li>ul.sub-menu {
+    position: absolute;
+    top: 43px;
+    z-index: 1000;
+    margin: 0px;
+    padding: 0px;
+    min-width: 190px;
+    background-color: #ffffff;
+    border: solid 1px #eeeeee;
+    margin-top: -10px;
+}
+.main>.container>.row>ul>li>ul.sub-menu>li {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    border-bottom: 1px dashed rgba(102,102,102,.3);
+}
+.main>.container>.row>ul>li>ul.sub-menu>li>a {
+    background-image: none;
+    color: #666666;
+    border-right: 0 none;
+    text-align: left;
+    display: block;
+    line-height: 22px;
+    padding: 8px 12px;
+    text-transform: none;
+    font-size: 13px;
+    letter-spacing: normal;
+    border-right: 0px solid;
+}
